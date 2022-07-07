@@ -59,11 +59,11 @@
 		86B08A0528766765000F0D33 /* MovieApp */ = {
 			isa = PBXGroup;
 			children = (
-				86B08A1C287669CA000F0D33 /* Constants.swift */,
+				86B08A2028766AB3000F0D33 /* App */,
+				86B08A1E28766A9C000F0D33 /* Util */,
 				86B08A172876694B000F0D33 /* Control */,
 				86B08A1628766921000F0D33 /* Loader */,
-				86B08A0628766765000F0D33 /* MovieAppApp.swift */,
-				86B08A0828766765000F0D33 /* ContentView.swift */,
+				86B08A1F28766AA7000F0D33 /* View */,
 				86B08A0A28766766000F0D33 /* Assets.xcassets */,
 				86B08A0C28766766000F0D33 /* Preview Content */,
 			);
@@ -93,6 +93,30 @@
 				86B08A1A28766981000F0D33 /* Rating.swift */,
 			);
 			path = Control;
+			sourceTree = "<group>";
+		};
+		86B08A1E28766A9C000F0D33 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				86B08A1C287669CA000F0D33 /* Constants.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		86B08A1F28766AA7000F0D33 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				86B08A0828766765000F0D33 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		86B08A2028766AB3000F0D33 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				86B08A0628766765000F0D33 /* MovieAppApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
