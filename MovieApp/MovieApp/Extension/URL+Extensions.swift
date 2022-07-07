@@ -12,7 +12,7 @@ extension URL {
         _ name: String
     ) -> URL? {
         return URL(
-            string: "http://www.omdbapi.com/?s=\(name)&apikey=\(Constants.apiKey)"
+            string: "https://www.omdbapi.com/?s=\(name)&apikey=\(Constants.apiKey)"
         )
     }
 }
