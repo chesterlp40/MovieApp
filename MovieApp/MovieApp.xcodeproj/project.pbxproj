@@ -21,6 +21,10 @@
 		86B08A2F28767743000F0D33 /* MovieListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B08A2E28767743000F0D33 /* MovieListScreen.swift */; };
 		86B08A32287677D3000F0D33 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B08A31287677D3000F0D33 /* MovieListView.swift */; };
 		86B08A3428767998000F0D33 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B08A3328767998000F0D33 /* View+Extensions.swift */; };
+		86B08A3628768291000F0D33 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B08A3528768291000F0D33 /* String+Extensions.swift */; };
+		86B08A3828768343000F0D33 /* FailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B08A3728768343000F0D33 /* FailedView.swift */; };
+		86B08A3A287683D0000F0D33 /* ViewModelBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B08A39287683D0000F0D33 /* ViewModelBase.swift */; };
+		86B08A3C2876858B000F0D33 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B08A3B2876858B000F0D33 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,10 @@
 		86B08A2E28767743000F0D33 /* MovieListScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListScreen.swift; sourceTree = "<group>"; };
 		86B08A31287677D3000F0D33 /* MovieListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
 		86B08A3328767998000F0D33 /* View+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		86B08A3528768291000F0D33 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		86B08A3728768343000F0D33 /* FailedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FailedView.swift; sourceTree = "<group>"; };
+		86B08A39287683D0000F0D33 /* ViewModelBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelBase.swift; sourceTree = "<group>"; };
+		86B08A3B2876858B000F0D33 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +131,8 @@
 		86B08A1F28766AA7000F0D33 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				86B08A3B2876858B000F0D33 /* LoadingView.swift */,
+				86B08A3728768343000F0D33 /* FailedView.swift */,
 				86B08A31287677D3000F0D33 /* MovieListView.swift */,
 			);
 			path = View;
@@ -147,6 +157,7 @@
 		86B08A2428766EBC000F0D33 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				86B08A3528768291000F0D33 /* String+Extensions.swift */,
 				86B08A3328767998000F0D33 /* View+Extensions.swift */,
 				86B08A2528766ECD000F0D33 /* URL+Extensions.swift */,
 			);
@@ -164,6 +175,7 @@
 		86B08A2A2876748D000F0D33 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				86B08A39287683D0000F0D33 /* ViewModelBase.swift */,
 				86B08A2B287674B2000F0D33 /* MovieListViewModel.swift */,
 			);
 			path = ViewModel;
@@ -248,9 +260,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				86B08A2328766CA9000F0D33 /* Movie.swift in Sources */,
+				86B08A3628768291000F0D33 /* String+Extensions.swift in Sources */,
 				86B08A0728766765000F0D33 /* MovieAppApp.swift in Sources */,
 				86B08A1B28766981000F0D33 /* Rating.swift in Sources */,
 				86B08A15287668F0000F0D33 /* ImageLoader.swift in Sources */,
+				86B08A3C2876858B000F0D33 /* LoadingView.swift in Sources */,
+				86B08A3A287683D0000F0D33 /* ViewModelBase.swift in Sources */,
 				86B08A32287677D3000F0D33 /* MovieListView.swift in Sources */,
 				86B08A29287670A6000F0D33 /* HTTPClient.swift in Sources */,
 				86B08A2628766ECD000F0D33 /* URL+Extensions.swift in Sources */,
@@ -259,6 +274,7 @@
 				86B08A2F28767743000F0D33 /* MovieListScreen.swift in Sources */,
 				86B08A1D287669CA000F0D33 /* Constants.swift in Sources */,
 				86B08A2C287674B2000F0D33 /* MovieListViewModel.swift in Sources */,
+				86B08A3828768343000F0D33 /* FailedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
