@@ -8,17 +8,16 @@
 import SwiftUI
 
 struct Rating: View {
-    
     @Binding var rating: Int?
     
-    private func starType(index: Int) -> String {
-        
+    private func starType(
+        index: Int
+    ) -> String {
         if let rating = self.rating {
             return index <= rating ? "star.fill" : "star"
         } else {
             return "star"
         }
-        
     }
     
     var body: some View {
