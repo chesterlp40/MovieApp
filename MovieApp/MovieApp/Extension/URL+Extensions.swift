@@ -8,6 +8,15 @@
 import Foundation
 
 extension URL {
+    
+    static func forMoviesByImdbId(
+        _ imdbId: String
+    ) -> URL? {
+        return URL(
+            string: "https://www.omdbapi.com/?i=\(imdbId)&apikey=\(Constants.apiKey)"
+        )
+    }
+    
     static func forMoviesByName(
         _ name: String
     ) -> URL? {
